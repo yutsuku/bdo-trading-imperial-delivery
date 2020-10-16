@@ -13,7 +13,7 @@ import drieghanCollectionSet from './modules/imperialDelivery/zone/drieghan.mjs'
 
 const iconRoot = (window.origin.indexOf('127.0.0.1') !== -1 ?
     './icon/' :
-    '//github.com/yutsuku/bdo-trading-imperial-delivery/blob/master/'
+    '//github.com/yutsuku/bdo-trading-imperial-delivery/raw/master/icon/'
 );
 
 const zoneData = {

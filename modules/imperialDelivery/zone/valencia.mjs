@@ -35,4 +35,14 @@ collection.addElement( new DeliveryElement('Mace', 'Master 4', '00055465') );
 collection.addElement( new DeliveryElement('Camel Fur Coat', 'Master 4', '00055466') );
 collectionSet.addCollection(collection);
 
+
+collection = new DeliveryCollection();
+collection.addElement( new DeliveryElement('Rakshan Telescope', 'Beginner 1', '00055467') );
+collection.addElement( new DeliveryElement("Shakatu's Surprise Jewel Box", 'Master 5', '00055468') );
+collection.addElement( new DeliveryElement('Jewel-Decorated Rifle', 'Master 6', '00055469') );
+collection.addElement( new DeliveryElement('Elixir of Life', 'Master 2', '00055470') );
+collection.addElement( new DeliveryElement('Giant Fire-Breathing Shield', 'Master 3', '00055472') );
+collection.addElement( new DeliveryElement('Rutile Nugget', 'Master 3', '00055473') );
+collectionSet.addCollection(collection);
+
 export { collectionSet as default };

@@ -11,6 +11,11 @@ import margoriaCollectionSet from './modules/imperialDelivery/zone/margoria.mjs'
 import kamasylviaCollectionSet from './modules/imperialDelivery/zone/kamasylvia.mjs';
 import drieghanCollectionSet from './modules/imperialDelivery/zone/drieghan.mjs';
 
+const iconRoot = (window.origin.indexOf('127.0.0.1') !== -1 ?
+    './icon/' :
+    '//github.com/yutsuku/bdo-trading-imperial-delivery/blob/master/'
+);
+
 const zoneData = {
     balenos: balenosCollectionSet,
     serendia: serendiaCollectionSet,
@@ -145,7 +150,7 @@ function setCollectionData(territoryContainer, zoneData, territoryData) {
         }
         let html = htmlToElement(`
         <div class="trade-item">
-            <img src="./icon/${tradeItem.icon}.png"
+            <img src="${iconRoot}${tradeItem.icon}.png"
                 title="${tradeItem.name}\n${rankTooltip}"
                 alt="${tradeItem.name}\n${rankTooltip}" />
         </div>`);

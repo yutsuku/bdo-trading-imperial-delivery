@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>BDO Trading Imperial Delivery</title>
+        <meta charset="utf-8">
+        <link href="./normalize.css" rel="stylesheet" type="text/css">
+        <link href="./style.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <main class="main-theme">
+            <div class="icon flex">
+                <svg version="1.0" id="Layer_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                    width="24px" height="24px" viewBox="0 0 800 800" enable-background="new 0 0 800 800" xml:space="preserve">
+                <path fill="#FBE9D1" d="M400,0C179.086,0,0,179.086,0,400s179.086,400,400,400s400-179.086,400-400S620.914,0,400,0z M749.114,375
+                    H481.257c-1.583-5.15-3.649-10.086-6.133-14.769l189.412-189.412C712.673,226.333,743.619,297.153,749.114,375z M425,50.886
+                    c77.848,5.494,148.667,36.441,204.181,84.578L439.769,324.876c-4.683-2.484-9.618-4.55-14.769-6.133V50.886z M375,50.886v267.857
+                    c-5.15,1.583-10.086,3.649-14.768,6.133L170.82,135.464C226.333,87.328,297.153,56.38,375,50.886z M135.464,170.819l189.412,189.412
+                    c-2.484,4.682-4.551,9.618-6.133,14.769H50.886C56.38,297.153,87.328,226.333,135.464,170.819z M50.886,425h267.857
+                    c1.583,5.15,3.649,10.086,6.133,14.768L135.463,629.18C87.327,573.666,56.38,502.847,50.886,425z M375,749.114
+                    c-77.847-5.495-148.667-36.442-204.181-84.579l189.412-189.412c4.682,2.484,9.619,4.551,14.769,6.134V749.114z M350,400
+                    c0-27.614,22.386-50,50-50s50,22.386,50,50s-22.386,50-50,50S350,427.614,350,400z M425,749.114V481.257
+                    c5.15-1.583,10.086-3.649,14.769-6.133l189.412,189.412C573.667,712.673,502.848,743.619,425,749.114z M664.536,629.181
+                    L475.124,439.769c2.483-4.683,4.55-9.618,6.133-14.769h267.857C743.619,502.848,712.673,573.667,664.536,629.181z"/>
+                </svg>
+            </div>
+            <header class="flex">Trading</header>
+            <select class="flex" id="player-rank"></select>
+        </main>
+        <section class="main-theme sets flex column">
+            <header>Imperial Delivery</header>
+            <div class="inner flex column">
+                <div class="flex ab">
+                    <div data-territory="balenos" class="flex-item block">
+                        <p>- Balenos Territory (Deliver Target: Mathias)</p>
+                        <div class="flex item-wrapper">
+                            <div class="trade-items flex"></div>
+                            <div class="flex flex-item column switch">
+                                <div>
+                                    <button data-step="previous">🡱</button>
+                                </div>
+                                <div>
+                                    <button data-step="next">🡳</button>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="low-rank"></p>
+                    </div>
+                    <div data-territory="serendia" class="flex-item block">
+                        <p>- Serendia Territory (Deliver Target: Radolf Hansen)</p>
+                        <div class="flex item-wrapper">
+                            <div class="trade-items flex"></div>
+                            <div class="flex flex-item column switch">
+                                <div>
+                                    <button data-step="previous">🡱</button>
+                                </div>
+                                <div>
+                                    <button data-step="next">🡳</button>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="low-rank"></p>
+                    </div>
+                </div>
+
+                <div class="flex ab">
+                    <div data-territory="calpheon" class="flex-item block">
+                        <p>- Calpheon Territory (Deliver Target: Lamiro Iadans)</p>
+                        <div class="flex item-wrapper">
+                            <div class="trade-items flex"></div>
+                            <div class="flex flex-item column switch">
+                                <div>
+                                    <button data-step="previous">🡱</button>
+                                </div>
+                                <div>
+                                    <button data-step="next">🡳</button>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="low-rank"></p>
+                    </div>
+                    <div data-territory="mediah" class="flex-item block">
+                        <p>- Mediah Territory (Deliver Target: Woodrey)</p>
+                        <div class="flex item-wrapper">
+                            <div class="trade-items flex"></div>
+                            <div class="flex flex-item column switch">
+                                <div>
+                                    <button data-step="previous">🡱</button>
+                                </div>
+                                <div>
+                                    <button data-step="next">🡳</button>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="low-rank"></p>
+                    </div>
+                </div>
+
+                <div class="flex ab">
+                    <div data-territory="valencia" class="flex-item block">
+                        <p>- Valencia Territory (Deliver Target: Damac)</p>
+                        <div class="flex item-wrapper">
+                            <div class="trade-items flex"></div>
+                            <div class="flex flex-item column switch">
+                                <div>
+                                    <button data-step="previous">🡱</button>
+                                </div>
+                                <div>
+                                    <button data-step="next">🡳</button>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="low-rank"></p>
+                    </div>
+                    <div data-territory="margoria" class="flex-item block">
+                        <p>- Port Ratt, Margoria (Deliver Target: Sanmyoung)</p>
+                        <div class="flex item-wrapper">
+                            <div class="trade-items flex"></div>
+                            <div class="flex flex-item column switch">
+                                <div>
+                                    <button data-step="previous">🡱</button>
+                                </div>
+                                <div>
+                                    <button data-step="next">🡳</button>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="low-rank"></p>
+                    </div>
+                </div>
+
+                <div class="flex ab">
+                    <div data-territory="kamasylvia" class="flex-item block">
+                        <p>- Kamasylvia (Deliver Target: Cyclamen)</p>
+                        <div class="flex item-wrapper">
+                            <div class="trade-items flex"></div>
+                            <div class="flex flex-item column switch">
+                                <div>
+                                    <button data-step="previous">🡱</button>
+                                </div>
+                                <div>
+                                    <button data-step="next">🡳</button>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="low-rank"></p>
+                    </div>
+                    <div data-territory="drieghan" class="flex-item block">
+                        <p>- Drieghan (Deliver Target: Heira)</p>
+                        <div class="flex item-wrapper">
+                            <div class="trade-items flex"></div>
+                            <div class="flex flex-item column switch">
+                                <div>
+                                    <button data-step="previous">🡱</button>
+                                </div>
+                                <div>
+                                    <button data-step="next">🡳</button>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="low-rank"></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            Made with not so much love by Yutsuku240/Awawawawawawa EU.
+            <small> PA, fix your terrible UX in UI</small>
+        </footer>
+        <script type="module" src="main.mjs"></script>
+    </body>
+</html>

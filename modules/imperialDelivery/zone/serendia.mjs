@@ -7,7 +7,7 @@ import DeliveryElement from './../DeliveryElement.mjs';
 const collectionSet = new DeliveryCollectionSet();
 
 let collection = new DeliveryCollection();
-collection.addElement( new DeliveryElement('Nouveranto Net', undefined, '00055376') );
+collection.addElement( new DeliveryElement('Nouveranto Net', 'Beginner 1', '00055376') );
 collection.addElement( new DeliveryElement("Mariam's Sandwich", 'Artisan 9', '00055355') );
 collection.addElement( new DeliveryElement('Blue Silk Fabric', 'Skilled 9', '00055357') );
 collection.addElement( new DeliveryElement('Jeweled Dagger', 'Artisan 2', '00055354') );

@@ -144,17 +144,26 @@ main > *
     justify-content: space-between;
     align-items: flex-end;
 }
-/*
-.sets .block .item-wrapper .switch button
+
+button
 {
-    opacity: 0;
+    cursor: pointer;
 }
 
-.sets .block:hover .switch button
+.sets .block .item-wrapper .switch
+{
+    opacity: 0.1;
+    pointer-events: none;
+    transition: opacity 0.2s ease;
+    
+}
+
+.sets .block:hover .switch
 {
     opacity: 1;
+    transition: none;
+    pointer-events: auto;
 }
-*/
 
 .bad img
 {
@@ -315,4 +324,10 @@ footer a
 footer small
 {
     font-size: 0.3em;
+}
+
+section header
+{
+    display: flex;
+    justify-content: space-between;
 }

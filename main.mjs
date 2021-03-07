@@ -1,6 +1,7 @@
 'use strict';
 
 import { ranks } from './modules/skillRanks.mjs';
+import ResetTimer from './modules/ResetTimer.mjs';
 import { htmlToElement, htmlToNodeList } from './modules/utils.mjs';
 import balenosCollectionSet from './modules/imperialDelivery/zone/balenos.mjs';
 import serendiaCollectionSet from './modules/imperialDelivery/zone/serendia.mjs';
@@ -225,3 +226,5 @@ function updateAllCollections(zoneData, territoryData) {
 populatePlayerRank();
 territoryData = updateTerritoryData();
 updateAllCollections(zoneData, territoryData);
+
+const resetTimer = new ResetTimer(document.querySelectorAll('.reset-timer'));
